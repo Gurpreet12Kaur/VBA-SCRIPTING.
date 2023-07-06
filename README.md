@@ -7,6 +7,3 @@ The difference in value is expressed as a percentage between the price at the st
 The stock's overall stock volume.
 
 To complete the challenge I went through our class recording and watch the youtube videos that will help me improve my skills using VBA scripting. 
-
-Summarise what I did (talk about loops), including screenshots of results and vba
-what I was asked to do.
