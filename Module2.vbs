@@ -39,7 +39,7 @@ Sub MultipleYearStockData():
                 'Write ticker in column I (#9)
                ws.Cells(TickCount, 9).Value = ws.Cells(i, 1).Value
                 
-                'Calculate and write Yearly Change in column J (#10)
+                'Calculate the Yearly Change in column J
                ws.Cells(TickCount, 10).Value = ws.Cells(i, 6).Value - ws.Cells(j, 3).Value
                 
                    
@@ -55,7 +55,7 @@ Sub MultipleYearStockData():
                 
                     End If
                     
-                   'Calculate and write percent change in column K (#11)
+                   'Calculate the percent change in column K
                     If ws.Cells(j, 3).Value <> 0 Then
                     PerChange = ((ws.Cells(i, 6).Value - ws.Cells(j, 3).Value) / ws.Cells(j, 3).Value)
                     
@@ -68,7 +68,7 @@ Sub MultipleYearStockData():
                     
                    End If
                     
-                'Calculate and write total volume in column L (#12)
+                'Calculate the total volume in column L
                 ws.Cells(TickCount, 12).Value = WorksheetFunction.Sum(Range(ws.Cells(j, 7), ws.Cells(i, 7)))
                 
                 
